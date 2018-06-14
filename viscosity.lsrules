@@ -1,0 +1,20 @@
+{
+  "description" : "",
+  "name" : "Viscosity app",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "secure.sparklabs.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "swupdate.sparklabs.com"
+    }
+  ]
+}
