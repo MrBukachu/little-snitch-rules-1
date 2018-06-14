@@ -1,0 +1,81 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "description": {
+      "$id": "/properties/description",
+      "type": "string",
+      "title": "The Description Schema ",
+      "default": "",
+      "examples": [
+        ""
+      ]
+    },
+    "name": {
+      "$id": "/properties/name",
+      "type": "string",
+      "title": "The Name Schema ",
+      "default": "",
+      "examples": [
+        "Viscosity app"
+      ]
+    },
+    "rules": {
+      "$id": "/properties/rules",
+      "type": "array",
+      "items": {
+        "$id": "/properties/rules/items",
+        "type": "object",
+        "properties": {
+          "action": {
+            "$id": "/properties/rules/items/properties/action",
+            "type": "string",
+            "title": "The Action Schema ",
+            "default": "",
+            "examples": [
+              "allow"
+            ]
+          },
+          "ports": {
+            "$id": "/properties/rules/items/properties/ports",
+            "type": "string",
+            "title": "The Ports Schema ",
+            "default": "",
+            "examples": [
+              "443"
+            ]
+          },
+          "process": {
+            "$id": "/properties/rules/items/properties/process",
+            "type": "string",
+            "title": "The Process Schema ",
+            "default": "",
+            "examples": [
+              "/Applications/Viscosity.app/Contents/MacOS/Viscosity"
+            ]
+          },
+          "protocol": {
+            "$id": "/properties/rules/items/properties/protocol",
+            "type": "string",
+            "title": "The Protocol Schema ",
+            "default": "",
+            "examples": [
+              "tcp"
+            ]
+          },
+          "remote-hosts": {
+            "$id": "/properties/rules/items/properties/remote-hosts",
+            "type": "string",
+            "title": "The Remote-hosts Schema ",
+            "default": "",
+            "examples": [
+              "secure.sparklabs.com"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
