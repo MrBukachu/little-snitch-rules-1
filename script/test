@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eau
+
+cd "$(dirname "$0")/.."
+
+docker run -it --rm -v  "$PWD/:/app" koenrh/lsrules jsonschema \
+  -i /app/apps.lsrules /app/schema/lsrules.json

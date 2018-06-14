@@ -1,0 +1,9 @@
+---
+language: python
+python:
+  - '3.6'
+install:
+  - pip install -U pip
+  - pip install jsonschema
+script:
+  - jsonschema -i apps.lsrules schema/lsrules.json
