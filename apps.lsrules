@@ -119,14 +119,16 @@
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
       "protocol" : "tcp",
-      "remote-hosts" : "api.wootric.com"
+      "remote-hosts" : "api.wootric.com",
+      "notes": "Tracking."
     },
     {
       "action" : "deny",
       "ports" : "443",
       "process" : "\/Applications\/Docker.app\/Contents\/MacOS\/Docker",
       "protocol" : "tcp",
-      "remote-hosts" : "api.segment.io"
+      "remote-hosts" : "api.segment.io",
+      "notes": "Tracking."
     },
     {
       "action" : "allow",
