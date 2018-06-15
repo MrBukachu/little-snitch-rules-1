@@ -213,6 +213,128 @@
       "process" : "\/Applications\/VLC.app\/Contents\/MacOS\/VLC",
       "protocol" : "tcp",
       "remote-hosts" : "update.videolan.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/MindNode.app\/Contents\/MacOS\/MindNode",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.mindnode.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "downloads.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "update.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "push.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "sync2.omnigroup.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/OmniFocus.app\/Contents\/MacOS\/OmniFocus",
+      "protocol" : "tcp",
+      "remote-hosts" : "sync.omnigroup.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Pocket.app\/Contents\/MacOS\/Pocket",
+      "protocol" : "tcp",
+      "remote-hosts" : "settings.crashlytics.com",
+      "notes": "Crash reporting."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Pocket.app\/Contents\/MacOS\/Pocket",
+      "protocol" : "tcp",
+      "remote-hosts" : "getpocket.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.google-analytics.com",
+      "notes": "Tracking."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.sketchapp.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "gate.hockeyapp.net",
+      "notes": "Crash reporting, and tracking."
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "backend.bohemiancoding.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "download.sketchapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Sketch.app\/Contents\/MacOS\/Sketch",
+      "protocol" : "tcp",
+      "remote-hosts" : "api.sketchapp.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "secure.sparklabs.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Viscosity.app\/Contents\/MacOS\/Viscosity",
+      "protocol" : "tcp",
+      "remote-hosts" : "swupdate.sparklabs.com"
     }
   ]
 }
