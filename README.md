@@ -4,10 +4,9 @@
 
 ## Installation
 
-[Click here](x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkoenrh%2Flittle-snitch-rules%2Fmaster%2Fapps.lsrules) to subscribe to the rules.
-
-Or add subscribe to the rules manually using the following URL:
+In order to subscribe to the rules group, copy, paste, and open the following URL
+in your browser:
 
 ```
-https://raw.githubusercontent.com/koenrh/little-snitch-rules/master/apps.lsrules
+x-littlesnitch:subscribe-rules?url=https%3A%2F%2Fraw.githubusercontent.com%2Fkoenrh%2Flittle-snitch-rules%2Fmaster%2Fapps.lsrules
 ```
